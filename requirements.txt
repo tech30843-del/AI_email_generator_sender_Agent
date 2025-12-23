@@ -1,0 +1,13 @@
+# Core AI/ML dependencies
+llama-cpp-python>=0.2.0
+
+# Google API dependencies
+google-api-python-client>=2.0.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+
+# Agent framework (optional but recommended)
+smolagents>=0.1.0
+
+# Utilities
+python-dotenv>=1.0.0
