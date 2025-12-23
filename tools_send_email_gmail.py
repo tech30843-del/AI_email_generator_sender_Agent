@@ -15,7 +15,7 @@ from google.auth.transport.requests import Request
 # Configuration
 CREDENTIALS_FILE = "credentials.json"
 TOKEN_FILE = "token.json"
-SENDER_EMAIL = "tech30843@gmail.com"  # Replace with your Gmail address
+SENDER_EMAIL = "*********@gmail.com"  # Replace with your Gmail address
 SCOPES = ["https://www.googleapis.com/auth/gmail.send"]
 
 # ============================================================
@@ -190,4 +190,5 @@ def setup_gmail_auth():
             
     except Exception as e:
         print(f"✗ Authentication failed: {e}")
+
         return False
